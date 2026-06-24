@@ -1,0 +1,156 @@
+BITÁCORA DE TERMINAL - CLASE 36
+Código abierto, soberanía tecnológica y primeros pasos en terminal
+
+Nombre del estudiante: Andres Villanueva
+Fecha: 23/06/2026
+Clase: clase 36
+Entorno usado: codespace
+
+1. ¿Qué es un sistema operativo?
+Respuesta:
+Es el software principal de un computador que administra los recursos del equipo y 
+permite ejecutar programas y aplicaciones.
+
+2. ¿Qué es el código abierto?
+Respuesta:
+Es un tipo de software cuyo código fuente está disponible para que las personas 
+puedan estudiarlo, modificarlo y mejorarlo.
+
+3. ¿Qué significa soberanía tecnológica?
+Respuesta:
+Es la capacidad de una comunidad o país de controlar, comprender y decidir sobre las
+tecnologías que utiliza sin depender completamente de otros.
+
+4. ¿Qué es Linux?
+Respuesta:
+Es un sistema operativo de código abierto basado en Unix, utilizado en computadores, 
+servidores y otros dispositivos.
+
+5. ¿Qué es Debian?
+Respuesta:
+Es una distribución de Linux conocida por su estabilidad, seguridad y uso de software libre
+
+6. ¿Qué es un servidor?
+Respuesta:
+Es un equipo o sistema que ofrece servicios, datos o recursos a otros dispositivos 
+conectados a una red.
+
+7. ¿Qué es una terminal?
+Respuesta:
+Es una herramienta que permite comunicarse con el sistema mediante comandos de 
+texto para realizar tareas
+
+8. Comandos ejecutados y resultado observado:
+
+Comando: whoami
+Resultado:
+codespace
+
+Comando: hostname
+Resultado:
+codespaces-890839
+
+Comando: date
+Resultado:
+Tue Jun 23 19:38:19 UTC 2026
+
+Comando: pwd
+Resultado:
+/workspaces/practica-sistemas-o_modulo4
+
+Comando: ls
+Resultado:
+README.md  
+bitacora-terminal-clase36.txt  
+checklist-seguridad-operativa-clase36.txt  
+practica-linux
+
+Comando: ls -la
+Resultado:
+mustra los archivos de la carpeta o repositorio 
+
+Comando: mkdir practica-linux
+Resultado:
+crea la carpeta practiva-linux
+
+Comando: cd practica-linux
+Resultado:
+abre la carpeta 
+
+Comando: touch notas.txt
+Resultado:
+crea archivos. 
+
+Comando: echo "Mi primera practica en terminal Debian" > notas.txt
+Resultado:
+añade texto al archivo.
+
+Comando: cat notas.txt
+Resultado:
+visualiza los datos del archivo.
+
+Comando: cp notas.txt copia-notas.txt
+Resultado:
+se copia el archivo.
+
+Comando: mv copia-notas.txt notas-renombradas.txt
+Resultado:
+se cambia el nombre al documento.
+
+Comando: mkdir respaldo
+Resultado:
+se crea la carpeta de respaldo.
+
+Comando: mv notas-renombradas.txt respaldo/
+Resultado:
+se mueve archivo a la carpeta respaldo.. 
+
+Comando: df -h
+Resultado:
+Muestra el espacio disponible y usado del disco
+
+Comando: free -h
+Resultado:
+Muestra el uso de la memoria RAM
+
+Comando: uname -a
+Resultado:
+Muestra información del sistema operativo y del kernel.
+
+Comando: history
+Resultado:
+Muestra el historial de comandos ejecutados.
+
+Comando: ip a
+Resultado:
+Muestra información de las interfaces de red y direcciones IP.
+
+Comando: top
+Resultado:
+Muestra procesos activos y consumo de recursos del sistema.
+
+9. ¿Qué comando me pareció más útil y por qué?
+Respuesta:
+El comando ls me pareció muy útil porque permite conocer rápidamente qué archivos 
+y carpetas existen en una ubicación y facilita la organización del trabajo.
+
+10. ¿Qué aprendí sobre el uso responsable de la terminal?
+Respuesta:
+Aprendí que la terminal es una herramienta poderosa que debe utilizarse con cuidado, 
+verificando los comandos antes de ejecutarlos para evitar errores o pérdida de información.
+
+11. ¿Qué información no debo publicar en capturas o evidencias?
+Respuesta:
+No debo publicar contraseñas, claves privadas, tokens, direcciones IP sensibles, información 
+personal o datos de acceso a servidores.
+
+12. ¿Qué cuidados debo tener al trabajar en un servidor?
+Respuesta:
+Debo usar comandos con precaución, proteger las credenciales, realizar copias de seguridad y 
+evitar modificar archivos importantes sin verificar.
+
+13. ¿Cómo se relaciona la terminal con la soberanía tecnológica?
+Respuesta:
+La terminal permite conocer y controlar el funcionamiento del sistema, especialmente usando 
+herramientas de código abierto como Linux, lo que ayuda a tener mayor autonomía sobre la 
+tecnología utilizada.

@@ -1,0 +1,41 @@
+BITÁCORA DE PERMISOS - CLASE 37
+
+Nombre: Andres Villanueva
+Fecha:24/06/2026
+Entorno: GitHub Codespaces
+
+1. ¿Qué significa el permiso -rw-rw-r--?
+Respuesta:
+Significa que el propietario puede leer y escribir el archivo, el grupo puede leer y escribir, y otros usuarios solo pueden leerlo. No tiene permiso de ejecución.
+
+2. ¿Qué significa chmod 777?
+Respuesta:
+Significa que todos los usuarios tienen permisos de lectura, escritura y ejecución sobre el archivo o carpeta.
+
+3. ¿Por qué 777 es riesgoso?
+Respuesta:
+Porque cualquier usuario podría modificar, eliminar o ejecutar el archivo, lo que puede generar problemas de seguridad o permitir cambios no autorizados.
+
+4. ¿Qué permisos son más adecuados para un archivo .env?
+Respuesta:
+Normalmente se recomienda usar permisos como 600, donde solo el propietario puede leer y modificar el archivo.
+
+5. ¿Por qué un archivo .env no debe estar dentro de una carpeta pública?
+Respuesta:
+Porque puede exponer información sensible como contraseñas, claves API, tokens o configuraciones privadas que podrían ser aprovechadas por personas no autorizadas.
+
+6. ¿Qué pasó cuando se simuló la exposición de config-expuesto.env?
+Respuesta:
+Se simuló un caso donde la información de configuración quedó accesible públicamente, mostrando el riesgo de exponer credenciales y datos sensibles.
+
+7. ¿Cómo se corrigió el problema?
+Respuesta:
+Se corrigió restringiendo los permisos del archivo, moviéndolo fuera de carpetas públicas y protegiendo la información sensible.
+
+8. ¿Qué relación tiene esto con Telegram, Node.js o n8n?
+Respuesta:
+Estas herramientas pueden usar archivos .env para guardar configuraciones como tokens, claves y accesos. Si esos datos se exponen, alguien podría acceder o manipular servicios conectados.
+
+9. ¿Qué aprendí sobre mínimo privilegio?
+Respuesta:
+Aprendí que cada usuario o proceso debe tener únicamente los permisos necesarios para realizar su función, evitando accesos innecesarios y reduciendo riesgos de seguridad.
