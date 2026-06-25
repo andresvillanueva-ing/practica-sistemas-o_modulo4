@@ -1,0 +1,64 @@
+BITÁCORA DE SEGURIDAD OPERATIVA - CLASE 42
+
+Nombre:Andres Villanueva
+Fecha: 25/06/2026
+
+1. ¿Qué significa seguridad operativa aplicada?
+Respuesta:
+Significa aplicar medidas y buenas prácticas para proteger una aplicación mientras funciona, 
+como controlar accesos, proteger información, revisar configuraciones y monitorear posibles errores o riesgos.
+
+2. ¿Qué es el principio de mínimo privilegio?
+Respuesta:
+Es una práctica de seguridad que consiste en dar a cada usuario o proceso únicamente los 
+permisos necesarios para realizar su tarea, evitando accesos innecesarios.
+
+3. ¿Qué significa exposición mínima?
+Respuesta:
+Significa mostrar o compartir únicamente la información necesaria, evitando revelar datos 
+sensibles o detalles internos que puedan poner en riesgo la seguridad del sistema.
+
+4. ¿Para qué sirve .gitignore?
+Respuesta:
+Sirve para indicar qué archivos o carpetas no deben subirse al repositorio de Git, 
+como archivos temporales, configuraciones privadas o datos sensibles.
+
+5. ¿Por qué .env no debe subirse a GitHub?
+Respuesta:
+Porque normalmente contiene información privada como tokens, contraseñas, 
+claves API y configuraciones que podrían ser utilizadas por personas no autorizadas.
+
+6. ¿Qué datos podrían ser sensibles en este proyecto?
+Respuesta:
+Tokens de Telegram, claves API, contraseñas, credenciales de servicios, 
+información personal de usuarios y cualquier dato privado de configuración.
+
+7. ¿Qué archivos no deberían subirse al repositorio?
+Respuesta:
+Archivos como .env, contraseñas, tokens, archivos con información privada, 
+copias de seguridad, archivos temporales y configuraciones internas.
+
+8. ¿Qué rutas deberían mantenerse públicas?
+Respuesta:
+Rutas que entregan información general y segura, como una página de 
+estado del servicio o información pública de la plataforma.
+
+9. ¿Qué rutas deberían limitar información?
+Respuesta:
+Rutas de diagnóstico, administración, usuarios, configuraciones 
+internas o cualquier ruta que pueda mostrar datos sensibles del sistema.
+
+10. ¿Qué cambio se hizo en /estado?
+Respuesta:
+Se ajustó para que mostrara información básica del estado de la aplicación 
+sin revelar detalles internos o datos sensibles.
+
+11. ¿Qué muestra /diagnostico y qué no debe mostrar?
+Respuesta:
+Muestra información útil para revisar el funcionamiento del sistema, como estado 
+general o servicios activos, pero no debe mostrar tokens, contraseñas, claves privadas ni información sensible.
+
+12. ¿Qué aprendí sobre proteger credenciales?
+Respuesta:
+Aprendí que las credenciales deben mantenerse privadas, guardarse en variables de entorno, evitar publicarlas 
+en repositorios y aplicar controles de acceso para reducir riesgos de seguridad.
