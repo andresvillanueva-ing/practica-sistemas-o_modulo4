@@ -1,0 +1,57 @@
+REFLEXIÓN TÉCNICA INICIAL SOBRE TELEGRAM COMO CANAL COMUNITARIO
+Clase 40 - Semana 8
+
+Nombre: Andres Villanueva
+Fecha: 24/06/2026
+
+1. ¿Cómo podría servir Telegram a una comunidad digital?
+Respuesta:
+Telegram puede servir como un canal de comunicación rápida entre la comunidad, 
+permitiendo enviar información, avisos, recibir reportes y mantener a las personas 
+conectadas con actividades o decisiones importantes.
+
+2. ¿Qué mensajes o alertas sería útil enviar por Telegram?
+Respuesta:
+Se podrían enviar avisos comunitarios, recordatorios de eventos, actualizaciones 
+de proyectos, alertas de seguridad, cambios importantes y notificaciones sobre 
+actividades de participación ciudadana.
+
+3. ¿Qué reportes no sensibles podrían automatizarse?
+Respuesta:
+Podrían automatizarse reportes como estado de servicios, resultados de formularios, 
+avisos públicos, seguimiento de propuestas, información de eventos o consultas generales.
+
+4. ¿Qué información no debería enviarse por Telegram sin protocolo?
+Respuesta:
+No deberían enviarse contraseñas, tokens, datos personales sensibles, información privada de 
+usuarios, documentos confidenciales o datos que puedan poner en riesgo a una persona.
+
+5. ¿Qué tareas conviene dejar en Node.js?
+Respuesta:
+En Node.js conviene manejar la lógica de la aplicación, conexión con APIs, procesamiento 
+de datos, validaciones, manejo del bot y comunicación entre servicios.
+
+6. ¿Qué tareas conviene automatizar con n8n?
+Respuesta:
+Con n8n conviene automatizar flujos repetitivos como enviar notificaciones, conectar diferentes 
+servicios, procesar formularios, generar alertas o programar tareas automáticas.
+
+7. ¿Qué credenciales deben protegerse?
+Respuesta:
+Deben protegerse tokens de bots, claves API, contraseñas, datos de acceso a bases de datos y 
+cualquier información que permita controlar un servicio.
+
+8. ¿Por qué el token del bot no debe estar en GitHub?
+Respuesta:
+Porque alguien podría obtenerlo y usar el bot sin autorización, enviando mensajes, accediendo 
+al servicio o generando problemas de seguridad.
+
+9. ¿Qué medidas de seguridad deben aplicarse antes de una integración real?
+Respuesta:
+Se deben usar archivos .env, proteger credenciales, configurar permisos adecuados, validar datos, 
+revisar logs, realizar pruebas y evitar publicar información sensible.
+
+10. ¿Qué pregunta técnica me queda para la siguiente semana?
+Respuesta:
+¿Cómo puedo mejorar la seguridad y escalabilidad de una integración entre Telegram, Node.js y 
+otras herramientas de automatización para una plataforma comunitaria?
