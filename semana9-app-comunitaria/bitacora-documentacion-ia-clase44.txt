@@ -1,0 +1,67 @@
+ITÁCORA DE DOCUMENTACIÓN E IA - CLASE 44
+
+Nombre:
+Fecha:
+Entorno: GitHub Codespaces
+
+1. ¿Qué es un procedimiento técnico?
+Respuesta:
+Es un conjunto de pasos ordenados y documentados que explican cómo realizar una tarea 
+técnica de forma correcta, permitiendo que otra persona pueda repetir el proceso.
+
+2. ¿Por qué documentar evita depender de una sola persona?
+Respuesta:
+Porque la información queda registrada y cualquier integrante del equipo puede consultar el 
+procedimiento sin depender del conocimiento de una persona específica.
+
+3. ¿Qué diferencia hay entre Codespaces, hosting compartido, VPS y nube?
+Respuesta:
+Codespaces: entorno de desarrollo en la nube para programar sin configurar una máquina local.
+Hosting compartido: varios sitios comparten los recursos de un mismo servidor.
+VPS: servidor virtual con más control y recursos propios.
+Nube: infraestructura escalable donde se pueden administrar servicios y recursos según la necesidad.
+
+4. ¿Qué es cPanel?
+Respuesta:
+Es una herramienta gráfica para administrar servicios de hosting como archivos, dominios, bases de datos, 
+correos y configuraciones del servidor.
+
+5. ¿Qué archivos no deben subirse al repositorio?
+Respuesta:
+Archivos con información sensible como .env, credenciales, contraseñas, tokens, claves privadas y carpetas 
+generadas como node_modules.
+
+6. ¿Qué función cumple .gitignore?
+Respuesta:
+Indica a Git qué archivos o carpetas debe ignorar para evitar que sean agregados y 
+subidos al repositorio.
+
+7. ¿Qué función cumple .gitkeep?
+Respuesta:
+Permite mantener carpetas vacías dentro del repositorio, ya que Git normalmente 
+no guarda carpetas sin archivos.
+
+8. ¿Qué carpeta se preparó para archivos subidos?
+Respuesta:
+La carpeta preparada fue uploads, destinada para almacenar archivos que puedan s
+er cargados por los usuarios.
+
+9. ¿Por qué los archivos dentro de uploads no deben subirse automáticamente?
+Respuesta:
+Porque pueden contener información privada, archivos pesados o datos generados 
+durante el uso del sistema que no pertenecen al código fuente.
+
+10. ¿Qué consulta segura hice a IA?
+Respuesta:
+Consulté sobre errores técnicos, configuración del proyecto, uso de Git, .gitignore, 
+dependencias y buenas prácticas sin compartir información privada.
+
+11. ¿Qué información evité compartir con IA?
+Respuesta:
+Evité compartir contraseñas, tokens de Telegram, archivos .env, claves privadas, 
+datos personales y credenciales del proyecto.
+
+12. ¿Qué parte del procedimiento verifiqué manualmente?
+Respuesta:
+Verifiqué manualmente la estructura del proyecto, el funcionamiento de Git, 
+el contenido del .gitignore, las dependencias instaladas y los archivos que serían enviados al repositorio.
