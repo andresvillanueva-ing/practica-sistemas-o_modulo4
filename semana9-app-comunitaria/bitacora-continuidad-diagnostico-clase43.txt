@@ -1,0 +1,64 @@
+BITÁCORA DE CONTINUIDAD Y DIAGNÓSTICO - CLASE 43
+
+Nombre: Andres Villanueva
+Fecha: 26/06/2026
+Entorno: GitHub Codespaces
+
+1. ¿Qué es continuidad operativa?
+Respuesta:
+Es la capacidad de una aplicación o servicio para mantenerse funcionando de forma 
+estable y disponible, incluso cuando ocurren errores, fallos o interrupciones.
+
+2. ¿Qué es PM2?
+Respuesta:
+PM2 es un administrador de procesos para aplicaciones Node.js que permite iniciar, 
+supervisar, reiniciar y mantener una aplicación ejecutándose en segundo plano.
+
+3. ¿Qué comando usé para iniciar la aplicación con PM2?
+Respuesta:
+npx pm2 start server.js --name app-semana9
+
+4. ¿Qué comando usé para listar procesos?
+Respuesta:
+npx pm2 list
+
+5. ¿Qué comando usé para detener la aplicación?
+Respuesta:
+npx pm2 stop app-semana9
+
+6. ¿Qué comando usé para reiniciar la aplicación?
+Respuesta:
+npx pm2 restart app-semana9
+
+7. ¿Qué comando usé para revisar logs?
+Respuesta:
+npx pm2 logs app-semana9 --lines 20
+
+8. ¿Qué error simulé?
+Respuesta:
+Simulé un error en la aplicación, como una configuración incorrecta,
+ una variable faltante o un fallo que provocara una respuesta inesperada del servidor.
+
+9. ¿Qué mensaje apareció en logs?
+Respuesta:
+0|app-sema | SUGERENCIA: Revise el archivo .env sin publicar credenciales.
+0|app-sema | ERROR_SIMULADO: Se ejecutó la ruta /fallo-controlado para práctica de diagnóstico.
+
+10. ¿Cuál fue la causa probable del error?
+Respuesta:
+faltaba el token del bot de telegram 
+
+11. ¿Cómo corregí el error?
+Respuesta:
+descomente la variable del token en el .env 
+
+12. ¿Qué rutas verifiqué después de corregir?
+Respuesta:
+curl http://localhost:3000/estado
+curl http://localhost:3000/diagnostico
+curl http://localhost:3000/fallo-controlado
+
+13. ¿Qué debo evitar al tomar capturas de logs?
+Respuesta:
+Debo evitar mostrar tokens, contraseñas, claves API, direcciones privadas, 
+datos personales o cualquier información sensible que pueda comprometer la seguridad del sistem
