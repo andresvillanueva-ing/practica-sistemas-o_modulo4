@@ -1,0 +1,53 @@
+BITÁCORA DE PROCESOS Y TELEGRAM - CLASE 38
+
+Nombre:
+Fecha:
+Entorno: GitHub Codespaces
+
+1. ¿Qué es un proceso?
+Respuesta: 
+Un proceso es un programa o tarea que está siendo ejecutada por el sistema operativo. Cada proceso consume recursos como memoria y CPU.
+
+2. ¿Qué significa que un proceso esté corriendo?
+Respuesta:
+Significa que el programa está activo y el sistema operativo le está asignando recursos para que pueda funcionar.
+
+3. ¿Qué puede pasar si un proceso se detiene?
+Respuesta:
+El programa puede dejar de funcionar, interrumpir un servicio o dejar de responder a las solicitudes de los usuarios.
+
+4. ¿Qué comandos usé para observar procesos?
+Respuesta:
+Comandos como ps, ps aux, top o htop permiten ver los procesos que están ejecutándose en el sistema.
+
+5. ¿Qué es un bot de Telegram?
+Respuesta:
+Es un programa que funciona dentro de Telegram y permite automatizar acciones como enviar mensajes, recibir comandos o interactuar con usuarios.
+
+6. ¿Qué es un token?
+Respuesta:
+Es una clave única que permite identificar y autenticar un bot o servicio para que pueda conectarse correctamente con una plataforma.
+
+7. ¿Por qué el token no debe publicarse?
+Respuesta:
+Porque alguien podría usarlo para controlar el bot, enviar mensajes no autorizados o acceder al servicio asociado.
+
+8. ¿Dónde se guardó el token?
+Respuesta:
+Se guardó en un archivo de variables de entorno .env, para mantenerlo separado del código y protegerlo.
+
+9. ¿Por qué .env debe estar en .gitignore?
+Respuesta:
+Porque evita que información sensible como tokens, contraseñas o claves sea subida accidentalmente a un repositorio público como GitHub.
+
+10. ¿Qué diferencia hay entre telegram-test.js y bot-observacion.js?
+Respuesta:
+telegram-test.js normalmente se usa para comprobar que el bot funciona y que la conexión es correcta. bot-observacion.js puede tener una función más completa, como recibir eventos, monitorear información o ejecutar acciones específicas.
+
+11. ¿Cómo puede servir Telegram a una comunidad digital?
+Respuesta:
+Puede servir como un canal de comunicación rápida para enviar avisos, recibir reportes, compartir información comunitaria y facilitar la participación ciudadana.
+
+12. ¿Qué información no debería enviarse por un bot sin protocolo?
+Respuesta:
+No deberían enviarse datos personales sensibles, contraseñas, ubicaciones privadas, información confidencial o datos que puedan poner en riesgo a las personas.
