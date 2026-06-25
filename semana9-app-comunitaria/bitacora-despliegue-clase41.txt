@@ -1,0 +1,55 @@
+BITÁCORA DE DESPLIEGUE - CLASE 41
+
+Nombre: Andres Villanueva
+Fecha: 25/06/2026
+Entorno usado: GitHub Codespaces
+
+1. ¿Qué significa desplegar o levantar una aplicación?
+Respuesta:
+Significa poner una aplicación en funcionamiento para que pueda ejecutarse y recibir 
+solicitudes de los usuarios, por ejemplo iniciar un servidor y dejarlo disponible mediante un puerto.
+
+2. ¿Qué diferencia hay entre código escrito y aplicación ejecutándose?
+Respuesta:
+El código escrito son las instrucciones creadas por el desarrollador, mientras que la aplicación 
+ejecutándose es cuando ese código está activo y realizando funciones en un entorno real.
+
+3. ¿Qué variable de entorno se usó para definir el puerto?
+Respuesta:
+Se usó la variable de entorno PORT, que permite definir el puerto donde se ejecuta la aplicación.
+
+4. ¿Qué puerto se usó?
+Respuesta:
+El puerto usado fue el definido en el archivo .env o en la configuración de la aplicación, 
+normalmente puede ser un puerto como 3000 en prácticas con Node.js.
+
+5. ¿Qué rutas fueron verificadas?
+Respuesta:
+Se verificaron las rutas disponibles de la aplicación, como /estado y otras rutas configuradas 
+en el servidor para comprobar que respondieran correctamente.
+
+6. ¿Qué respuesta entregó la ruta /estado?
+Respuesta:
+La ruta /estado entregó una respuesta indicando que la aplicación estaba activa y funcionando 
+correctamente, por ejemplo un mensaje de estado del servidor.
+
+7. ¿Qué ocurrió al consultar una ruta inexistente?
+Respuesta:
+El servidor respondió con un error como 404 Not Found, indicando que la ruta solicitada no 
+existe dentro de la aplicación.
+
+8. ¿Por qué el archivo .env no debe subirse a GitHub?
+Respuesta:
+Porque puede contener información sensible como contraseñas, tokens, claves API o configuraciones 
+privadas que podrían ser utilizadas por personas no autorizadas.
+
+9. ¿Qué aprendí sobre disponibilidad de una aplicación?
+Respuesta:
+Aprendí que una aplicación debe estar correctamente levantada, configurada y disponible para 
+que los usuarios puedan acceder a sus funciones sin interrupciones.
+
+10. ¿Qué debo revisar antes de decir que una aplicación funciona?
+Respuesta:
+Debo verificar que el servidor inicie correctamente, que las variables de entorno estén 
+configuradas, que las rutas respondan, que no existan errores en los logs y que 
+las funciones principales trabajen correctamente.
