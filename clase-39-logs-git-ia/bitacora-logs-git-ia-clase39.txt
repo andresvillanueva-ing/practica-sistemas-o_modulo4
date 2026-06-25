@@ -1,0 +1,60 @@
+BITÁCORA OPERATIVA - CLASE 39
+Logs, Git e IA responsable
+
+Nombre: Andres Villanueva
+Fecha: 24/06/2026
+Entorno: GitHub Codespaces
+
+1. ¿Qué es un log?
+Respuesta: 
+Un log es un registro de eventos o actividades que ocurren dentro de un sistema, aplicación o servidor. Guarda información sobre acciones, errores y procesos realizados.
+
+2. ¿Por qué un log ayuda a diagnosticar?
+Respuesta:
+Porque permite revisar qué ocurrió en el sistema, identificar errores, conocer cuándo sucedieron y encontrar posibles causas para solucionarlos.
+
+3. ¿Qué diferencia hay entre INFO, WARN y ERROR?
+Respuesta:
+INFO: muestra información normal sobre el funcionamiento del sistema.
+WARN: indica una advertencia sobre algo que puede generar problemas.
+ERROR: muestra fallos o problemas que impiden que una función trabaje correctamente.
+
+4. ¿Qué log observé en la práctica?
+Respuesta:
+Observé un log relacionado con la ejecución de una aplicación Node.js donde se mostraban mensajes del funcionamiento del sistema y posibles errores de configuración.
+
+5. ¿Qué significa el error observado?
+Respuesta:
+ignifica que la aplicación encontró un problema durante su ejecución, por ejemplo, una variable de entorno faltante, una configuración incorrecta o un recurso que no pudo encontrar.
+
+6. ¿Qué información sensible no debo compartir en logs?
+Respuesta:
+No debo compartir contraseñas, tokens, claves API, datos personales, credenciales de acceso ni información privada de usuarios.
+
+7. ¿Qué comando de Git usé para revisar cambios?
+Respuesta:
+git status
+
+8. ¿Qué mensaje de commit usé?
+Respuesta:
+git commit -m "Clase 39 logs git e IA responsable"
+
+9. ¿Qué consulta segura hice a IA?
+Respuesta:
+Consulté cómo interpretar un error o mejorar la configuración de la aplicación sin compartir información privada del proyecto.
+
+10. ¿Qué información oculté antes de consultar a IA?
+Respuesta:
+Oculté tokens, contraseñas, claves privadas, datos personales y cualquier información sensible del sistema.
+
+11. ¿Qué respondió la IA?
+Respuesta:
+La IA explicó posibles causas del problema, pasos de revisión y recomendaciones para corregir la configuración de forma segura.
+
+12. ¿Cómo validé la respuesta?
+Respuesta:
+Validé la respuesta revisando el código, comprobando la configuración del proyecto, ejecutando pruebas y verificando que la solución funcionara correctamente.
+
+13. ¿Qué aprendí sobre trazabilidad?
+Respuesta:
+Aprendí que la trazabilidad permite conocer los cambios realizados en un proyecto, saber quién los hizo, cuándo se hicieron y por qué, ayudando a mantener orden, seguridad y control del desarrollo.
